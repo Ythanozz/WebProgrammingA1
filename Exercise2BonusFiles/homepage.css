@@ -1,0 +1,67 @@
+.menu a:hover {
+    background-color:rgb(62, 202, 253);  color: black;
+    padding: 6px;
+    text-align: center;
+    }
+
+
+.menu a {  
+    color:rgb(255, 255, 255);
+    text-align: center;  
+    padding: 5px 7px;  
+    text-decoration: none;  
+    font-size: 17px;  
+    display: block;
+    }
+    
+.menu {
+    background-color: rgb(32, 46, 116);  overflow: visible;  padding:4px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+#title {
+    text-align: center;
+}
+
+#desc {
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(to bottom, #5e3fcd80, #3b59ef9d);
+    margin: 0;
+    min-height: 100vh;
+}
+
+.menu {
+    border: 2px solid #000000a8;
+    border-radius: 10px;
+    padding: 20px; 
+    overflow: auto; 
+    margin: 15px 0; 
+}
+
+.menu h2 {
+    margin-top: 0; 
+}
+
+#foot {
+    background-color:rgb(65, 87, 200);  color: black;
+    padding: 6px;
+    text-align: center;
+    color: white;
+    margin-top:500px;
+
+}
